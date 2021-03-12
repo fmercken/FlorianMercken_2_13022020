@@ -2,6 +2,8 @@
 
 
 
+
+
 body{
     padding: 0 15px 0 15px;
 }
@@ -9,9 +11,12 @@ body{
 .container{
     display: flex;
     justify-content:space-between;
+   
 }
 
+.container.menu-item > div{
+    margin: 20px 20px 0 20px;
+    display: flex;
+    justify-content: flex-end;
 
-.container.menu-item  div{
-    margin: 0 20px 0 20px;
 }
