@@ -11,12 +11,45 @@ body{
 .container{
     display: flex;
     justify-content:space-between;
-   
+    flex-flow: wrap;
+    align-content:flex-start;
 }
 
-.container.menu-item > div{
-    margin: 20px 20px 0 20px;
+.container.menu-item > li{
+    margin: 15px 15px 0 15px;
     display: flex;
     justify-content: flex-end;
 
+}
+
+
+
+
+
+
+
+
+
+.mid-background-grey{
+    justify-content: space-between;
+
+}
+
+
+.background-grey-left{
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.card-image
+{
+    border-radius: 25px 25px 0 0;
+    height: 200px;
+    margin: 5px;
 }
