@@ -31,8 +31,8 @@ body{
 
 
 .mid-background-grey{
+    display: flex;
     justify-content: space-between;
-
 }
 
 
@@ -47,9 +47,37 @@ body{
     border-radius: 25px;
 }
 
-.card-image
-{
+.card-image{
     border-radius: 25px 25px 0 0;
     height: 200px;
     margin: 5px;
+}
+
+.background-grey-right{
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+
+}
+
+
+
+
+.white-background-down{
+    display: flex;
+    justify-content:space-between ;
+    
+}
+
+.box-cards-white{
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.card-white{
+    border-radius: 25px 25px 0 0;
+    height: 200px;
+    margin: 5px;
+
+
 }
