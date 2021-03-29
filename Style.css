@@ -5,46 +5,65 @@
 
 
 body{
+    margin:0;
+}
+
+.padding-body{
     padding: 0 15px 0 15px;
+}
+
+
+.container.menu-item > li{
+    margin: 15px 15px 0 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mid-background-grey{
+    align-items: stretch;
+    margin: 40px 0px 40px 0px;
+}
+
+
+.background-grey-lodging{
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    margin: 0px 10px 0px 0px;
 }
 
 .container{
     display: flex;
     justify-content:space-between;
     flex-flow: wrap;
-    align-content:flex-start;
+    align-content:flex-start;    
 }
 
-.container.menu-item > li{
-    margin: 15px 15px 0 15px;
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-
-
-
-
-
-
-
-
-.mid-background-grey{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.background-grey-left{
-    background-color: rgb(211, 211, 211);
-    border-radius: 20px;
-}
 
 .card{
     background-color: #fff;
     margin: 10px;
     border-radius: 25px;
+}
+
+.inline{
+    display: flex;
+    width: 100%;
 }
 
 .card-image{
@@ -53,31 +72,74 @@ body{
     margin: 5px;
 }
 
-.background-grey-right{
+.background-grey-popular{
+    display: flex;
+    flex-flow: column wrap;
     background-color: rgb(211, 211, 211);
     border-radius: 20px;
-
+    margin: 0px 0px 0px 10px;
 }
 
-
-
-
-.white-background-down{
+.popular-cards{
     display: flex;
-    justify-content:space-between ;
-    
+    justify-content:space-between;
+    flex-flow: wrap;
+    align-content:flex-start;
+
+
 }
 
-.box-cards-white{
-    background-color: #fff;
-    margin: 10px;
-    border-radius: 25px;
+
+
+
+.white-background-activity{
+    display: flex;
+    justify-content:space-between;
+    margin: 40px 0px 40px 0px;
+    
 }
 
 .card-white{
     border-radius: 25px 25px 0 0;
-    height: 200px;
+    height: 600px;
+    width: 200px;
     margin: 5px;
+}
+.card-image-white{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
 
 
+
+.card-white-classe-a{
+    margin: 5px;
+}
+
+.shadow{
+    box-shadow: 10px 5px 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(211, 211, 211, 0.555);
+}
+.box-footer > ul{
+    list-style-type: none;
 }
