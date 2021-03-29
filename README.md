@@ -12,3 +12,5 @@ Etapes:
 1) voir les media (breakpoint)
 2) structure en gros la page
 3) créer les composants
+4) validateur w3c html et w3c css
+5) modifier header en nav et nav en section
