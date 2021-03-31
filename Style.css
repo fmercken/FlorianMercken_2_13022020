@@ -20,7 +20,9 @@ body{
 }
 
 
-
+.margin01{
+    margin: -10px 0px 0px 20px;
+}
 
 
 .flex-space-around{
@@ -59,17 +61,22 @@ body{
     background-color: #fff;
     margin: 10px;
     border-radius: 25px;
+    height: 320px;
+    width: 360px;
 }
 
 .inline{
     display: flex;
-    width: 100%;
+    width: 350px;
+    height: 200px;
 }
 
 .card-image{
     border-radius: 25px 25px 0 0;
     height: 200px;
+    width: 350px;
     margin: 5px;
+    object-fit: cover;
 }
 
 .background-grey-popular{
@@ -80,13 +87,12 @@ body{
     margin: 0px 0px 0px 10px;
 }
 
-.popular-cards{
-    display: flex;
-    justify-content:space-between;
-    flex-flow: wrap;
-    align-content:flex-start;
-
-
+.card-image-popular{
+    border-radius: 25px 0px 0px 25px;
+    height: 180px;
+    width: 180px;
+    margin: 5px;
+    object-fit: cover;
 }
 
 
@@ -114,11 +120,6 @@ body{
 }
 
 
-
-.card-white-classe-a{
-    margin: 5px;
-}
-
 .shadow{
     box-shadow: 10px 5px 5px black;
 }
@@ -127,17 +128,15 @@ body{
 
 
 
-
-
-
-
-
+.starcolor{
+    color: #0065FC;
+}
 
 
 
 .box-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: rgba(211, 211, 211, 0.555);
 }
 .box-footer > ul{
