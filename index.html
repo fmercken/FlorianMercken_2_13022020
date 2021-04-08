@@ -4,35 +4,70 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
         <title>Reservia Trouvez votre hébergement pour des vacances de rêve</title>  
     </head>
 
     <body>
-        <nav class="container padding-body">
+        <nav class="container width1335 padding-body raleway bodytop">
             <div id="ancre"><a href="index.html"><img src="./images/logo/Reservia.svg" /> </a></div>
             <ul class="container menu-item">
-                <li>Hébergement</li>
-                <li>Activités</li>
+                <li><a class="link" href="#ancre-housing"> Hébergement</a></li>
+                <li><a class="link" href="#ancre-activity">Activités</a></li>
                 <li>S'inscrire</li>
             </ul>
         </nav>
 
         
-        <header class="intro padding-body">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <header class="intro padding-body raleway">
+            <div class="font-weight"><h1>Trouvez votre hébergement pour des vacances de rêve</h1></div>
             <h2>En plein centre ville ou en pleine nature</h2>
+            <div class="research">
+                <div class="tracking"></div>
+                <div class="main-search"></div>
+                <div class="button-search"></div>
+
+            </div>
+            <div class= "menufilter">
+                <h2>Filtres</h2>
+                <div class= "button">
+                    <span class="menuicons"><i class="fas fa-money-bill-wave "></i></span>
+                    <h3>Economiques</h3>
+                </div>
+                <div class= "button">
+                    <span class="menuicons"><i class="fas fa-child"></i></span>
+                    <h3>Familial</h3>
+                </div>
+                <div class= "button">
+                    <span class="menuicons"><i class="fas fa-heart"></i></span>
+                    <h3>Romantique</h3>
+                </div>
+                <div class= "button">
+                    <span class="menuicons"><i class="fas fa-dog"></i></span>
+                    <h3>Animaux autorisés</h3>
+                </div>
+
+
+            </div>
+            <div class="infomenu flex-start align-item">
+                <i class="fas fa-info menuicons"></i>
+                <h4>Plus de 500 logements sont disponibles dans cette ville</h4>
+
+            </div>
+
 
         </header>
         
-        <section class="padding-body">
+        <section class="padding-body raleway width1335">
             <div class="mid-background-grey flex-space-around">
                     <div class="background-grey-lodging">
-                        <h2>Hébergement à Marseille</h2>
+                        <h2 id="ancre-housing">Hébergement à Marseille</h2>
                         <div class="container flex-space-between">
                             <div class="card">
                                 <img  class="card-image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
                                 <div class="card-footer margin01">
-                                    <h2>Auberge la Cannebière</h2>
+                                    <h4 class="marginnone">Auberge la Cannebière</h4>
                                     <div>Nuit à partir de 25€</div>
                                     <div class="stars">
                                         <i class="fas fa-star starcolor"></i>
@@ -173,72 +208,73 @@
         </section>
 
         
-        <section class="padding-body">
-            <h2>Activités à Marseille</h2>
+        <section class="width1335 padding-body raleway">
+            <h2 id="ancre-activity">Activités à Marseille</h2>
             <div class="white-background-activity">
-                <div class="card-white shadow">
-                    <img  class="card-image-white" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                <div class="card-white-a shadow">
+                    <img  class="card-image-white-a" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                     <div class="card-footer">
-                        <h2>xx</h2>
+                        <h2>Vieux Port</h2>
                     
                     </div>
                 </div>
 
-                <div class="card-white">
-                    <img  class="card-image-white" src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+              <div class="box-card flex-direction flex-space-between">
+                 <div class="card-white-b shadow">
+                     <img  class="card-image-white-b" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                      <div class="card-footer">
+                         <h2>Fort de Pomègues</h2>
+                     </div>
+                  </div>
+
+                  <div class="card-white-c shadow">
+                     <img  class="card-image-white-c" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                      <div class="card-footer">
+                         <h2>Îles du Frioul</h2>
+                      </div>
+                  </div>
+              </div>
+                <div class="card-white-a shadow">
+                    <img  class="card-image-white-a" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                     <div class="card-footer">
-                        <h2>xx</h2>
-                    
+                        <h2>Parc National des Calanques</h2>
                     </div>
                 </div>
 
-                <div class="card-white">
-                    <img  class="card-image-white" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-                    <div class="card-footer">
-                        <h2>xx</h2>
-                    </div>
-                </div>
-
-                <div class="card-white">
-                    <img  class="card-image-white" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-                    <div class="card-footer">
-                        <h2>xx</h2>
-                    </div>
-                </div>
-
-                <div class="card-white">
-                    <img  class="card-image-white" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-                    <div class="card-footer">
-                        <h2>xx</h2>
-                    </div>
-                </div>
-
-                <div class="card-white">
-                    <img  class="card-image-white" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-                    <div class="card-footer">
-                        <h2>xx</h2>
-                    </div>
-                </div>
-            </div>
+                <div class="box-card flex-direction flex-space-between">
+                    <div class="card-white-d shadow">
+                        <img  class="card-image-white-d" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                         <div class="card-footer">
+                            <h2>Notre-Dame-de-la-Garde</h2>
+                        </div>
+                     </div>
+   
+                     <div class="card-white-e shadow">
+                        <img  class="card-image-white-e" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                         <div class="card-footer">
+                            <h2>Parc Longchamp</h2>
+                         </div>
+                     </div>
+                 </div>
         </section>
 
 
-       <footer class="box-footer">
-        <ul class="about">
+       <footer class="box-footer raleway">
+        <ul class="about margin02">
             <h3>A propos</h3>
             <li>Fonctionnement du site</li>
             <li>Conditions générales de vente</li>
             <li>Données et confidentialité</li>
         </ul>
 
-        <ul class="lodging">
+        <ul class="lodging margin02">
             <h3>Nos Hébergements</h3>
             <li>Fonctionnement du site</li>
             <li>Conditions générales de vente</li>
             <li>Données et confidentialité</li>
         </ul>
 
-        <ul class="assistance">
+        <ul class="assistance margin02">
             <h3>Assistance</h3>
             <li>Fonctionnement du site</li>
             <li>Conditions générales de vente</li>

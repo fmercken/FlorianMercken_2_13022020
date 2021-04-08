@@ -4,14 +4,27 @@
 
 
 
-body{
-    margin:0;
+.bodytop{
+    margin: 50px 0px 0px 0px;
 }
 
 .padding-body{
-    padding: 0 15px 0 15px;
+    padding: 0px 50px 0 50px;
+    
 }
 
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-weight{
+    font-weight: 900;
+}
+
+.width1335{
+    width: 1335px ;
+    height:  ;
+}
 
 .container.menu-item > li{
     margin: 15px 15px 0 15px;
@@ -24,6 +37,9 @@ body{
     margin: -10px 0px 0px 20px;
 }
 
+.margin02{
+    margin: 0px 150px 30px 10px
+}
 
 .flex-space-around{
     display: flex;
@@ -36,17 +52,71 @@ body{
     justify-content: space-between;
 }
 
+.flex-direction{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+.flex-start{
+    Display: flex;
+    justify-content: flex-start;
+}
+
+.align-item{
+    align-items: center;
+}
+
+.research{
+    border: 3px solid rgb(211, 211, 211);
+    height: 50px;
+    width: 420px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.menufilter{
+    display: flex;
+    justify-content: space-between;
+    width: 1335px;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px solid rgb(211, 211, 211);
+    height: 50px;
+    width: 200px;   
+}
+
+.menuicons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(183, 200, 248);
+    text-align: center;
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin-right: 10px;
+}
 
 .mid-background-grey{
     align-items: stretch;
     margin: 40px 0px 40px 0px;
+    width: 1335px;
+    height: 625px;
 }
 
 
 .background-grey-lodging{
-    background-color: rgb(211, 211, 211);
+    background-color: #f2f2f2;
     border-radius: 20px;
-    margin: 0px 10px 0px 0px;
+    width: 880px;
+    height: 625px;
 }
 
 .container{
@@ -61,20 +131,20 @@ body{
     background-color: #fff;
     margin: 10px;
     border-radius: 25px;
-    height: 320px;
-    width: 360px;
+    height: 200px;
+    width: 245px;
 }
 
 .inline{
     display: flex;
-    width: 350px;
-    height: 200px;
+    width: 340px;
+    height: 145px;
 }
 
 .card-image{
     border-radius: 25px 25px 0 0;
-    height: 200px;
-    width: 350px;
+    height: 115px;
+    width: 235px;
     margin: 5px;
     object-fit: cover;
 }
@@ -82,15 +152,16 @@ body{
 .background-grey-popular{
     display: flex;
     flex-flow: column wrap;
-    background-color: rgb(211, 211, 211);
+    background-color: #f2f2f2;
     border-radius: 20px;
-    margin: 0px 0px 0px 10px;
+    width: 420px;
+    height: 625px;
 }
 
 .card-image-popular{
     border-radius: 25px 0px 0px 25px;
-    height: 180px;
-    width: 180px;
+    height: 135px;
+    width: 125px;
     margin: 5px;
     object-fit: cover;
 }
@@ -105,23 +176,76 @@ body{
     
 }
 
-.card-white{
-    border-radius: 25px 25px 0 0;
-    height: 600px;
-    width: 200px;
+
+.card-white-a{
+    border-radius: 25px 25px 25px 25px;
+    height: 445px;
+    width: 300px;
     margin: 5px;
 }
-.card-image-white{
+.card-image-white-a{
     border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    
+    width: 300px;
+    height: 390px;
+    object-fit: cover;   
 }
+
+.card-white-b{
+    border-radius: 25px 25px 25px 25px;
+    height: 240px ;
+    width: 300px ;
+}
+
+.card-image-white-b{
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    height: 185px;
+    object-fit: cover;   
+}
+
+.card-white-c{
+    border-radius: 25px 25px 25px 25px;
+    height: 165px ;
+    width: 300px ;
+}
+
+.card-image-white-c{
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    height: 110px;
+    object-fit: cover;   
+}
+
+.card-white-d{
+    border-radius: 25px 25px 25px 25px;
+    height: 195px ;
+    width: 300px ;
+}
+
+.card-image-white-d{
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    height: 140px;
+    object-fit: cover;   
+}
+
+.card-white-e{
+    border-radius: 25px 25px 25px 25px;
+    height: 210px ;
+    width: 300px ;
+}
+
+.card-image-white-e{
+    border-radius: 25px 25px 0 0;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;   
+}
+
 
 
 .shadow{
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px rgb(243, 234, 234);
 }
 
 
@@ -137,8 +261,21 @@ body{
 .box-footer{
     display: flex;
     justify-content: flex-start;
-    background-color: rgba(211, 211, 211, 0.555);
+    background-color: #f2f2f2;
 }
 .box-footer > ul{
     list-style-type: none;
+}
+
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color:#0065FC;
+}
+
+.marginnone{
+    margin:none!important;
 }
