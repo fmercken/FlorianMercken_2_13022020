@@ -36,7 +36,7 @@
     margin: 0px 15px 0 15px;
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
+    list-style-type: none ;
 }
 
 .margin02{
@@ -48,6 +48,9 @@
     justify-content: space-around;
 }
 
+.list-style-type-none{
+    list-style-type: none;
+}
 
 .flex-space-between{
     display: flex;
@@ -65,14 +68,15 @@
     justify-content: flex-start;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .align-item{
     align-items: center;
 }
 
-.border-top{
-    border-top: 3px solid #0065FC;
 
-}
  
 
 .research{
@@ -322,6 +326,7 @@
 
 .link:hover{
     color:#0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 .marginnone{
