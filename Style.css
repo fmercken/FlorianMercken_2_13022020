@@ -16,6 +16,12 @@
     padding-top: 30px;
 }
 
+.paddingcardfooter{
+    padding: 0px 0px 5px 10px;
+}
+.marginfilter{
+    margin-right: 2.5%;
+}
 .raleway{
     font-family: 'Raleway', sans-serif;
 }
@@ -28,7 +34,7 @@
     font-weight: bold;
 }
 
-.width85{
+.width100{
     width: 100%;
 }
 
@@ -114,7 +120,6 @@
 
 .menufilter{
     display: flex;
-    justify-content: space-between;
     width: 90%;
     align-items: center;
 }
@@ -126,6 +131,14 @@
     border: 3px solid rgb(211, 211, 211);
     height: 50px;
     width: 15%;   
+}
+
+.button1{
+    width: 13% !important;
+}
+
+.button2{
+    width: 18% !important;
 }
 
 .menuicons{
@@ -147,11 +160,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 50px 50px 50px 50px;
-    background-color: #f2f2f2;
+    background-color: white;
     color: #0065FC;
     height: 30px;
     width: 30px;
     margin-right: 10px;
+    border: 1px solid #f3f3f3;
 
 }
 
@@ -184,7 +198,7 @@
     margin: 10px;
     border-radius: 25px;
     height: 210px;
-    width: 30%;
+    width: 25%;
 }
 
 .inline{
@@ -306,6 +320,10 @@
 
 .starcolor{
     color: #0065FC;
+}
+
+.starcolor0{
+    color: #f3f3f3;
 }
 
 
