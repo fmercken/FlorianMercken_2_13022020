@@ -9,11 +9,11 @@
         <title>Reservia Trouvez votre hébergement pour des vacances de rêve</title>  
     </head>
 
-    <body>
-        <nav class="container raleway bodytop width100 list-style-type-none">
+    <body class="body-marging-none" >
+        <nav class="container raleway width100 ">
             <div class="padding-menu" id="ancre"><a href="index.html"><img src="./images/logo/Reservia.svg" /> </a></div>
-            <ul class="container menu-item marginnone list-style-type-none">
-                <li><a class="link border-top padding-menu list-style-type-none" href="#ancre-housing"> Hébergement</a></li> 
+            <ul class="container menu-item marginnone ">
+                <li><a class="link border-top padding-menu " href="#ancre-housing"> Hébergement</a></li> 
                 <li><a class="link border-top padding-menu" href="#ancre-activity">Activités</a></li>
                 <li class="font-weight-bold starcolor padding-menu">S'inscrire</li>
             </ul>
@@ -25,27 +25,35 @@
             <h4 class="font-weight-lighter">En plein centre ville ou en pleine nature</h4>
             <div class="research flex-space-between raleway">
                 <div class="tracking "><i class="fas fa-map-marker-alt"></i></div>
-                <div class="main-search"><input type="text"/><kbd>Marseille, France</kbd></div>
-                <div class="button-search raleway">Rechercher</div>
+                <div class="main-search">
+                    <input 
+                        class="text-search"
+                        type="text" 
+                        value="Marseille, France" 
+                        placeholder="Renseignez votre recherche ..."/>
+                </div>
+                <div >
+                    <button class="button-search raleway">Rechercher</button> 
+                </div>
 
             </div>
             <div class= "menufilter raleway padding-body flex-wrap">
                 <h2 class="marginfilter">Filtres</h2>
                 <div class= "button marginfilter">
-                    <span class="menuicons"><i class="fas fa-money-bill-wave "></i></span>
-                    <h3>Economiques</h3>
+                    <span class="menuicons "><i class="fas fa-money-bill-wave "></i></span>
+                    <h3 class="link1">Economiques</h3>
                 </div>
                 <div class= "button marginfilter button1">
                     <span class="menuicons"><i class="fas fa-child"></i></span>
-                    <h3>Familial</h3>
+                    <h3 class="link1">Familial</h3>
                 </div>
                 <div class= "button marginfilter">
                     <span class="menuicons"><i class="fas fa-heart"></i></span>
-                    <h3>Romantique</h3>
+                    <h3 class="link1">Romantique</h3>
                 </div>
                 <div class= "button marginfilter button2">
                     <span class="menuicons"><i class="fas fa-dog"></i></span>
-                    <h3>Animaux autorisés</h3>
+                    <h3 class="link1">Animaux autorisés</h3>
                 </div>
 
 
@@ -62,8 +70,8 @@
         <section class="padding-body raleway">
             <div class="mid-background-grey flex-space-around">
                     <div class="background-grey-lodging">
-                        <h2 id="ancre-housing">Hébergement à Marseille</h2>
-                        <div class="container flex-space-between">
+                        <h2 class="padding-lodging" id="ancre-housing">Hébergement à Marseille</h2>
+                        <div class="container1">
                             <div class="card">
                                 <img  class="card-image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
                                 <div class="card-footer">
@@ -151,12 +159,13 @@
                                 </div>
                             </div>
                         </div>
+                        <h4 class="padding-lodging1">Afficher plus</h4>
                     </div>
                     
                     <div class="background-grey-popular">
-                        <h2>Les plus populaires</h2>
-                        <div class="popular-cards">
-                            <div class="card inline">
+                        <h2 class="padding-popular">Les plus populaires</h2>
+                        <div class="popular-cards padding-popular">
+                            <div class="card inline padding-popular2">
                                 <img  class="card-image-popular" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                                 <div class="card-footer margin">
                                     <h4>Hôtel Le soleil du matin</h4>
@@ -171,7 +180,7 @@
                                 </div>
                             </div>
                             
-                            <div class="card inline">
+                            <div class="card inline padding-popular2">
                                 <img  class="card-image-popular" src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"/>
                                 <div class="card-footer margin">
                                     <h4>Au coeur de l'eau Chambres d'hôtes</h4>
@@ -185,7 +194,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card inline">
+                            <div class="card inline padding-popular2">
                                 <img  class="card-image-popular" src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"/>
                                 <div class="card-footer margin">
                                     <h4>Hôtel Tout bleu et blanc</h4>
@@ -209,12 +218,12 @@
 
         
         <section class="padding-body raleway width85">
-            <h2 id="ancre-activity">Activités à Marseille</h2>
+            <h2 class="padding-activity" id="ancre-activity">Activités à Marseille</h2>
             <div class="white-background-activity">
                 <div class="card-white-a shadow">
                     <img  class="card-image-white-a" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                     <div class="card-footer">
-                        <h2>Vieux Port</h2>
+                        <h2 class="font-size-activity">Vieux Port</h2>
                     
                     </div>
                 </div>
@@ -223,21 +232,21 @@
                  <div class="card-white-b shadow">
                      <img  class="card-image-white-b" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                       <div class="card-footer">
-                         <h2>Fort de Pomègues</h2>
+                         <h2 class="font-size-activity">Fort de Pomègues</h2>
                      </div>
                   </div>
 
                   <div class="card-white-c shadow">
                      <img  class="card-image-white-c" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
                       <div class="card-footer">
-                         <h2>Îles du Frioul</h2>
+                         <h2 class="font-size-activity">Îles du Frioul</h2>
                       </div>
                   </div>
               </div>
                 <div class="card-white-a shadow">
                     <img  class="card-image-white-a" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                     <div class="card-footer">
-                        <h2>Parc National des Calanques</h2>
+                        <h2 class="font-size-activity">Parc National des Calanques</h2>
                     </div>
                 </div>
 
@@ -245,21 +254,21 @@
                     <div class="card-white-d shadow">
                         <img  class="card-image-white-d" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
                          <div class="card-footer">
-                            <h2>Notre-Dame-de-la-Garde</h2>
+                            <h2 class="font-size-activity">Notre-Dame-de-la-Garde</h2>
                         </div>
                      </div>
    
                      <div class="card-white-e shadow">
                         <img  class="card-image-white-e" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
                          <div class="card-footer">
-                            <h2>Parc Longchamp</h2>
+                            <h2 class="font-size-activity">Parc Longchamp</h2>
                          </div>
                      </div>
                  </div>
         </section>
 
 
-       <footer class="box-footer raleway">
+       <footer class="box-footer raleway padding-body">
         <ul class="about margin02">
             <h3>A propos</h3>
             <li>Fonctionnement du site</li>
@@ -269,16 +278,14 @@
 
         <ul class="lodging margin02">
             <h3>Nos Hébergements</h3>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales de vente</li>
-            <li>Données et confidentialité</li>
+            <li>Charte qualité </li>
+            <li>Soumettre votre hôtel</li>
         </ul>
 
         <ul class="assistance margin02">
             <h3>Assistance</h3>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales de vente</li>
-            <li>Données et confidentialité</li>
+            <li>Centre d'aide</li>
+            <li>Nous contacter</li>
         </ul>
     </footer>
     </body>
