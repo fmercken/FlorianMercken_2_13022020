@@ -2,7 +2,11 @@
 
 
 .body-marging-none{
-    margin: 0;
+    margin: 0 !important;
+}
+
+.body-marging{
+    margin: 0 2% 0 2%;
 }
 
 .padding-body{
@@ -37,6 +41,10 @@
     padding: 0 0 0 45px ;
 }
 
+.padding-stars1{
+    padding: 40px 0 0 10px;
+}
+
 .marginfilter{
     margin-right: 2.5%;
 }
@@ -57,6 +65,11 @@
     padding-left: 5%;
 }
 
+.font-size-popular{
+    font-size: 18px;
+    padding: 0 5px 20px 10px;
+}
+
 .width100{
     width: 100%;
 }
@@ -70,6 +83,10 @@
 
 .margin02{
     margin: 0px 150px 30px 10px
+}
+
+.flex-wrap-all{
+    flex-wrap: wrap;
 }
 
 .flex-space-around{
@@ -102,10 +119,6 @@
     justify-content: flex-start;
 }
 
-.flex-wrap{
-    flex-wrap: wrap;
-}
-
 .align-item{
     align-items: center;
 }
@@ -116,7 +129,7 @@
 .research{
     border: 1px solid rgb(211, 211, 211);
     height: 50px;
-    width: 30%;
+    width: 465px;
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -171,15 +184,15 @@
     border-radius: 50px 50px 50px 50px;
     border: 3px solid rgb(211, 211, 211);
     height: 50px;
-    width: 15%;   
+    width: 190px;   
 }
 
 .button1{
-    width: 13% !important;
+    width: 150px;
 }
 
 .button2{
-    width: 18% !important;
+    width: 240px
 }
 
 .menuicons{
@@ -246,7 +259,7 @@
     margin: 10px;
     border-radius: 25px;
     height: 210px;
-    width: 25%;
+    width: 27%;
 }
 
 .inline{
