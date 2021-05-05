@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html langue="fr">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -10,27 +10,16 @@
         <title>Reservia Trouvez votre hébergement pour des vacances de rêve</title>  
     </head>
 
-    <body class="" >
-         <!-- Header desktop -->
-        <nav class="container raleway body-marging container-mobile hide-desktop">
+    <body class="body-marging-none" >
+        <nav class="container raleway body-marging container-mobile">
             <div class="padding-menu" id="ancre"><a href="index.html"><img src="./images/logo/Reservia.svg" /> </a></div>
-            <ul class="container menu-item marginnone nav-mobile">
-                <li><a class="link border-top padding-menu " href="#ancre-housing"> Hébergement</a></li> 
-                <li><a class="link border-top padding-menu" href="#ancre-activity">Activités</a></li>
-                <li class="font-weight-bold color-blue padding-menu font-size-register">S'inscrire</li>
+            <ul class="container menu-item marginnone padding-left-mobile">
+                <li class="flex-grow-mobile"><a class="link border-top padding-menu padding-menu-mobile link-botom width100-mobile" href="#ancre-housing"> Hébergement</a></li> 
+                <li class="flex-grow-mobile"><a class="link border-top padding-menu padding-menu-mobile link-botom width100-mobile" href="#ancre-activity">Activités</a></li>
+                <li class="font-weight-bold color-blue padding-menu font-size-register position-absolute">S'inscrire</li>
             </ul>
         </nav>
 
-        <!-- Header mobile -->
-        <nav class="container raleway body-marging container-mobile hide-mobile">
-            <div class="padding-menu" id="ancre"><a href="index.html"><img src="./images/logo/Reservia.svg" /> </a></div>
-            <ul class="container menu-item marginnone nav-mobile">
-                <li><a class="link border-top padding-menu " href="#ancre-housing"> Hébergement mobile</a></li> 
-                <li><a class="link border-top padding-menu" href="#ancre-activity">Activités</a></li>
-                <li class="font-weight-bold color-blue padding-menu font-size-register">S'inscrire</li>
-            </ul>
-        </nav>
-        
         <header class="intro padding-body raleway body-marging">
             <div class="font-weight"><h1><b>Trouvez votre hébergement pour des vacances de rêve</b></h1></div>
             <h4 class="font-weight-lighter">En plein centre ville ou en pleine nature</h4>
@@ -44,25 +33,26 @@
                         placeholder="Renseignez votre recherche ..."/>
                 </div>
                 <div class="mobile-research" >
-                    <button class="button-search raleway">Rechercher</button> 
+                    <button class="button-search raleway hide-desktop">Rechercher</button>
+                    <button class="hide-mobile icone-research"><i class="fas fa-search"></i></button>
                 </div>
 
             </div>
             <div class= "menufilter raleway padding-body flex-wrap-all">
-                <h2 class="marginfilter">Filtres</h2>
-                <div class= "button marginfilter link1">
+                <h2 class="marginfilter break-mobile">Filtres</h2>
+                <div class= "button marginfilter link1 margin-bottom-mobile">
                     <span class="menuicons "><i class="fas fa-money-bill-wave "></i></span>
-                    <h3 class="link1">Economiques</h3>
+                    <h3 class="link1">Economique</h3>
                 </div>
                 <div class= "button marginfilter button1">
                     <span class="menuicons"><i class="fas fa-child"></i></span>
                     <h3 class="link1">Familial</h3>
                 </div>
-                <div class= "button marginfilter">
+                <div class= "button marginfilter margin-bottom-mobile">
                     <span class="menuicons"><i class="fas fa-heart"></i></span>
                     <h3 class="link1">Romantique</h3>
                 </div>
-                <div class= "button marginfilter button2">
+                <div class= "button marginfilter button2 margin-bottom-mobile">
                     <span class="menuicons"><i class="fas fa-dog"></i></span>
                     <h3 class="link1">Animaux autorisés</h3>
                 </div>
@@ -82,8 +72,8 @@
             <div class="mid-background-grey flex-space-around background-mobile1">
                 <div class="background-grey-popular">
                     <h2 class="padding-popular">Les plus populaires</h2>
-                    <div class="popular-cards padding-popular">
-                        <div class="card inline padding-popular2">
+                    <div class="popular-cards padding-popular card-popular-mobile">
+                        <div class="card inline padding-popular2 card-mobile1">
                             <img  class="card-image-popular" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
                             <div class="card-footer margin">
                                 <h4>Hôtel Le soleil du matin</h4>
@@ -98,7 +88,7 @@
                             </div>
                         </div>
                         
-                        <div class="card inline padding-popular2">
+                        <div class="card inline padding-popular2 card-mobile1">
                             <img  class="card-image-popular" src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"/>
                             <div class="card-footer margin">
                                 <h4>Au coeur de l'eau Chambres d'hôtes</h4>
@@ -112,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card inline padding-popular2">
+                        <div class="card inline padding-popular2 card-mobile1">
                             <img  class="card-image-popular" src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"/>
                             <div class="card-footer margin">
                                 <h4>Hôtel Tout bleu et blanc</h4>
@@ -232,8 +222,8 @@
         <section class="padding-body raleway body-marging">
             <h2 class="padding-activity margin-activity" id="ancre-activity">Activités à Marseille</h2>
             <div class="white-background-activity flex-wrap-all">
-                <div class="card-white-a shadow">
-                    <img  class="card-image-white-a" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                <div class="card-white-a shadow card-white-mobile">
+                    <img  class="card-image-white-a card-mobile" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                     <div class="card-footer">
                         <h2 class="font-size-activity">Vieux Port</h2>
                     
@@ -241,61 +231,62 @@
                 </div>
 
               <div class="box-card flex-direction flex-space-between">
-                 <div class="card-white-b shadow">
-                     <img  class="card-image-white-b" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                 <div class="card-white-b shadow card-white-mobile">
+                     <img  class="card-image-white-b card-mobile" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                       <div class="card-footer">
                          <h2 class="font-size-activity">Fort de Pomègues</h2>
                      </div>
                   </div>
 
-                  <div class="card-white-c shadow">
-                     <img  class="card-image-white-c" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                  <div class="card-white-c shadow card-white-mobile">
+                     <img  class="card-image-white-c card-mobile" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
                       <div class="card-footer">
                          <h2 class="font-size-activity">Îles du Frioul</h2>
                       </div>
                   </div>
               </div>
-                <div class="card-white-a shadow">
-                    <img  class="card-image-white-a" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                <div class="card-white-a shadow card-white-mobile">
+                    <img  class="card-image-white-a card-mobile" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                     <div class="card-footer">
                         <h2 class="font-size-activity">Parc National des Calanques</h2>
                     </div>
                 </div>
 
                 <div class="box-card flex-direction flex-space-between">
-                    <div class="card-white-d shadow">
-                        <img  class="card-image-white-d" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                    <div class="card-white-d shadow card-white-mobile">
+                        <img  class="card-image-white-d card-mobile" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
                          <div class="card-footer">
                             <h2 class="font-size-activity">Notre-Dame-de-la-Garde</h2>
                         </div>
-                     </div>
+                    </div>
    
-                     <div class="card-white-e shadow">
-                        <img  class="card-image-white-e" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                     <div class="card-white-e shadow card-white-mobile">
+                        <img  class="card-image-white-e card-mobile" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
                          <div class="card-footer">
                             <h2 class="font-size-activity">Parc Longchamp</h2>
                          </div>
                      </div>
-                 </div>
+                </div>
+           </div>
         </section>
 
 
        <footer class="box-footer raleway padding-body flex-wrap-all body-marging-none width100">
         <ul class="about margin02">
-            <h3>A propos</h3>
+            <li class="font-weight-bold">A propos</li>
             <li>Fonctionnement du site</li>
             <li>Conditions générales de vente</li>
             <li>Données et confidentialité</li>
         </ul>
 
         <ul class="lodging margin02">
-            <h3>Nos Hébergements</h3>
+            <li class="font-weight-bold">Nos Hébergements</li>
             <li>Charte qualité </li>
             <li>Soumettre votre hôtel</li>
         </ul>
 
         <ul class="assistance margin02">
-            <h3>Assistance</h3>
+            <li class="font-weight-bold">Assistance</li>
             <li>Centre d'aide</li>
             <li>Nous contacter</li>
         </ul>
