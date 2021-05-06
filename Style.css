@@ -653,3 +653,14 @@
 .break {
     flex-basis: 100%;
   }
+
+
+  @media (min-width: 768px) and (max-width:1023px) {
+.card-image-popular {
+    border-radius: 25px 0px 0px 25px;
+    height: 135px;
+    width: 395px;
+    margin: 5px;
+    object-fit: cover;
+}
+  }
