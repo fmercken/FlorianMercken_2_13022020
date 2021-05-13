@@ -109,6 +109,13 @@
     }
 }
 
+.lien{
+    height: 210px;
+    width: 245px;
+    position: absolute;
+    z-index: 99;
+}
+
 .width100{
     width: 100%;
 }
@@ -205,7 +212,6 @@
 
 .menufilter{
     display: flex;
-    width: 90%;
     align-items: center;
 }
 
@@ -215,15 +221,15 @@
     border-radius: 50px 50px 50px 50px;
     border: 3px solid rgb(211, 211, 211);
     height: 50px;
-    width: 190px;   
+    width: 180px;   
 }
 
 .button1{
-    width: 150px;
+    width: 135px;
 }
 
 .button2{
-    width: 240px
+    width: 230px
 }
 
 .menuicons{
@@ -292,6 +298,14 @@
     display: flex;
     width: 345px;
     height: 145px;
+}
+
+@media all and (max-width: 1435px){
+    .inline{
+        display: flex;
+        width:auto;
+        height:auto;
+    }
 }
 
 .card-image{
@@ -548,7 +562,6 @@
     .card-mobile{
         background-color: #fff;
         margin: 10px;
-        border-radius: 25px;
         height: 210px;
         width: 100%;
     }
