@@ -95,6 +95,11 @@
     padding: 0 5px 20px 10px;
 }
 
+.text-deco{
+    text-decoration: none;
+    color: black;
+}
+
 /***************Desktop*****************/
 
 @media all and (min-width: 1024px){
@@ -107,13 +112,6 @@
     .hide-mobile{
         display: none;
     }
-}
-
-.lien{
-    height: 210px;
-    width: 245px;
-    position: absolute;
-    z-index: 99;
 }
 
 .width100{
