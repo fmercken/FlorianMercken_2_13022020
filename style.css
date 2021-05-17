@@ -47,10 +47,6 @@
     padding: 10px 0 0 50px;
 }
 
-.padding-popular2{
-    padding: 10px 0 0 0px;
-}
-
 .padding-body{
     margin-top: 1%;
 }
@@ -116,6 +112,10 @@
 
 .width100{
     width: 100%;
+}
+
+.width-card-popu{
+    width: 175px;
 }
 
 .container.menu-item > li{
@@ -561,7 +561,7 @@
         background-color: #fff;
         margin: 10px;
         height: 210px;
-        width: 100%;
+        width: 95%;
     }
 
     .card-popular-mobile {
@@ -644,4 +644,10 @@
     margin: 5px;
     object-fit: cover;
 }
+
+.card1 {
+    height: 210px;
+    width: 700px;
+}
+
   }
